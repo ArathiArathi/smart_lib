@@ -2,7 +2,7 @@ import { Outlet, useNavigate } from 'react-router-dom'
 import { useState } from 'react'
 import { useAuth } from '../context/AuthContext'
 import {
-  Menu, X, LogOut, Home, Users, Book, Barcode, Wallet, Send,
+  Menu, X, LogOut, Home, Users, Book, Barcode, Card, Send,
   Truck, Calendar, Bell, FileText, Settings, BarChart3
 } from 'lucide-react'
 
@@ -21,7 +21,7 @@ export default function Layout() {
     { icon: Users, label: 'Students', path: '/students' },
     { icon: Book, label: 'Books', path: '/books' },
     { icon: Barcode, label: 'Book Copies', path: '/book-copies' },
-    { icon: Wallet, label: 'Library Cards', path: '/library-cards' },
+    { icon: Card, label: 'Library Cards', path: '/library-cards' },
     { icon: Send, label: 'Issue/Return', path: '/issue-return' },
     { icon: Truck, label: 'Loan Tracking', path: '/loans' },
     { icon: Calendar, label: 'Academic Calendar', path: '/calendar' },
