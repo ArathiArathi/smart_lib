@@ -12,17 +12,16 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('users', function (Blueprint $table) {
-            //
+            $table->foreignId('role_id')->nullable()->constrained('roles')->onDelete('set null');
+            $table->boolean('is_admin')->default(false);
         });
     }
 
-    /**
-     * Reverse the migrations.
-     */
     public function down(): void
     {
         Schema::table('users', function (Blueprint $table) {
-            //
+            $table->dropForeignIdFor(\App\Models\Role::class);
+            $table->dropColumn(['role_id', 'is_admin']);
         });
     }
 };
