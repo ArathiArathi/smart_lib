@@ -1,0 +1,96 @@
+MIB search path: c:/usr/share/snmp/mibs
+Cannot find module (IP-MIB): At line 0 in (none)
+Cannot find module (IF-MIB): At line 0 in (none)
+Cannot find module (TCP-MIB): At line 0 in (none)
+Cannot find module (UDP-MIB): At line 0 in (none)
+Cannot find module (HOST-RESOURCES-MIB): At line 0 in (none)
+Cannot find module (SNMPv2-MIB): At line 0 in (none)
+Cannot find module (SNMPv2-SMI): At line 0 in (none)
+Cannot find module (NOTIFICATION-LOG-MIB): At line 0 in (none)
+Cannot find module (UCD-SNMP-MIB): At line 0 in (none)
+Cannot find module (UCD-DEMO-MIB): At line 0 in (none)
+Cannot find module (SNMP-TARGET-MIB): At line 0 in (none)
+Cannot find module (NET-SNMP-AGENT-MIB): At line 0 in (none)
+Cannot find module (DISMAN-EVENT-MIB): At line 0 in (none)
+Cannot find module (SNMP-VIEW-BASED-ACM-MIB): At line 0 in (none)
+Cannot find module (SNMP-COMMUNITY-MIB): At line 0 in (none)
+Cannot find module (SNMP-FRAMEWORK-MIB): At line 0 in (none)
+Cannot find module (SNMP-MPD-MIB): At line 0 in (none)
+Cannot find module (SNMP-USER-BASED-SM-MIB): At line 0 in (none)
+Cannot find module (SNMP-NOTIFICATION-MIB): At line 0 in (none)
+Cannot find module (SNMPv2-TM): At line 0 in (none)
+
+  GET|HEAD        / ...................................................................... generated::JsiRMbt1PPk0yvzp
+  POST            _ignition/execute-solution ignition.executeSolution › Spatie\LaravelIgnition › ExecuteSolutionContr…
+  GET|HEAD        _ignition/health-check ....... ignition.healthCheck › Spatie\LaravelIgnition › HealthCheckController
+  POST            _ignition/update-config .... ignition.updateConfig › Spatie\LaravelIgnition › UpdateConfigController
+  GET|HEAD        api/academic-calendar ................... academic-calendar.index › AcademicCalendarController@index
+  POST            api/academic-calendar ................... academic-calendar.store › AcademicCalendarController@store
+  POST            api/academic-calendar/upload ....... generated::R5IrgxojEhou9CQp › AcademicCalendarController@upload
+  GET|HEAD        api/academic-calendar/{academic_calendar} . academic-calendar.show › AcademicCalendarController@show
+  PUT|PATCH       api/academic-calendar/{academic_calendar} academic-calendar.update › AcademicCalendarController@upd…
+  DELETE          api/academic-calendar/{academic_calendar} academic-calendar.destroy › AcademicCalendarController@de…
+  GET|HEAD        api/admins ................................ generated::JRS37E2sH5pJu1f0 › AdminController@listAdmins
+  POST            api/admins ............................... generated::KXFbvHz71eczDfZC › AdminController@createAdmin
+  PATCH           api/admins/{user}/role ............... generated::JQBhjm3h08Z7QLxg › AdminController@updateAdminRole
+  PATCH           api/admins/{user}/toggle-status .... generated::VeSL7jWb51zQhY7Q › AdminController@toggleAdminStatus
+  POST            api/book-copies ............................. generated::VFQAFXiOBtbp4Nts › BookCopyController@store
+  GET|HEAD        api/book-copies ............................. generated::dt1QwEFP70ZoLJPZ › BookCopyController@index
+  POST            api/book-copies/print-barcodes ...... generated::LzkaClmhouUlKan9 › BookCopyController@printBarcodes
+  GET|HEAD        api/book-copies/{bookCopy} ................... generated::RLFR42OHZLUdp2mo › BookCopyController@show
+  PATCH           api/book-copies/{bookCopy}/status .... generated::te6mcDa9OxivKUSq › BookCopyController@updateStatus
+  GET|HEAD        api/books ....................................................... books.index › BookController@index
+  POST            api/books ....................................................... books.store › BookController@store
+  GET|HEAD        api/books/{book} .................................................. books.show › BookController@show
+  PUT|PATCH       api/books/{book} .............................................. books.update › BookController@update
+  DELETE          api/books/{book} ............................................ books.destroy › BookController@destroy
+  POST            api/books/{book}/restore ...................... generated::IdXooDX6QKzfz05U › BookController@restore
+  GET|HEAD        api/dashboard/analytics ................ generated::3vJfW5CEwIC3RNJZ › DashboardController@analytics
+  GET|HEAD        api/dashboard/metrics .................... generated::AKrD2BTM0NpsMofZ › DashboardController@metrics
+  POST            api/library-cards/generate ............ generated::G8dL094LPXMImJzP › LibraryCardController@generate
+  GET|HEAD        api/loans ....................................... generated::h9GZbTBc6QaqHbD2 › LoanController@index
+  GET|HEAD        api/loans-history ..................... generated::qVKo8oAvCNV4aVi0 › LoanTrackingController@history
+  GET|HEAD        api/loans/due-soon .................... generated::g0fmDFL5Ndal6B7i › LoanTrackingController@dueSoon
+  POST            api/loans/issue ................................. generated::xYXavwztqTA0J9wo › LoanController@issue
+  GET|HEAD        api/loans/overdue ..................... generated::zeXmDRZTJp5eZnUS › LoanTrackingController@overdue
+  POST            api/loans/return ............................... generated::xie6GyvBfM9j75P8 › LoanController@return
+  POST            api/loans/send-reminders ........ generated::Fp6mT4M66Ucsuzuh › LoanTrackingController@sendReminders
+  GET|HEAD        api/loans/{loan} ................................. generated::EmKX119fqFXD1fMr › LoanController@show
+  POST            api/login ....................................... generated::e0RVExzCpjW6s9iG › AuthController@login
+  POST            api/logout ..................................... generated::8fdBaygxsxHaQ4mr › AuthController@logout
+  GET|HEAD        api/me ............................................. generated::hATUMRg5Uw3VFuQP › AuthController@me
+  GET|HEAD        api/notifications/history ............. generated::6ScTmuUHQ8rW8h3E › NotificationController@history
+  POST            api/notifications/mark-all-read . generated::RFyxNdfdAIleVSYS › NotificationController@markAllAsRead
+  POST            api/notifications/send ................... generated::3jPIK8nljLLFadIE › NotificationController@send
+  POST            api/notifications/{notification}/read generated::iy35jwIbLHPUhKln › NotificationController@markAsRe…
+  POST            api/register ................................. generated::k8ifJ0swDIuOUbyk › AuthController@register
+  GET|HEAD        api/reports/book-wise ................ generated::Meu246tHRRQpYl6D › ReportController@bookWiseReport
+  GET|HEAD        api/reports/fine-collection .... generated::KL9D5MnEaJn6rQfv › ReportController@fineCollectionReport
+  GET|HEAD        api/reports/issued-books ................ generated::93RIgA5lDSqrLLAQ › ReportController@issuedBooks
+  GET|HEAD        api/reports/overdue-list ................ generated::kPIDl2NOnGbds6WT › ReportController@overdueList
+  GET|HEAD        api/reports/returned-books ............ generated::bPP0b8yMhw0CsVFD › ReportController@returnedBooks
+  GET|HEAD        api/reports/student-wise .......... generated::jGv2YA7YVDOI6GZm › ReportController@studentWiseReport
+  GET|HEAD        api/roles .................................. generated::8byAZrtLVB5e47xs › AdminController@listRoles
+  POST            api/roles ................................. generated::P3vxP0IkwVP8Zxpz › AdminController@createRole
+  PATCH           api/roles/{role} .......................... generated::jP6MRpPwn0qyYMuo › AdminController@updateRole
+  GET|HEAD        api/settings ............................. generated::xY2i4aqiwTeBupjq › AdminController@getSettings
+  POST            api/settings .......................... generated::Rv53ipZyn4IVrDAk › AdminController@updateSettings
+  GET|HEAD        api/students .............................................. students.index › StudentController@index
+  POST            api/students .............................................. students.store › StudentController@store
+  GET|HEAD        api/students/{student} ...................................... students.show › StudentController@show
+  PUT|PATCH       api/students/{student} .................................. students.update › StudentController@update
+  DELETE          api/students/{student} ................................ students.destroy › StudentController@destroy
+  POST            api/students/{student}/approve ............. generated::Qty2VWxGOupzj6XR › StudentController@approve
+  POST            api/students/{student}/block ................. generated::3LKJhkqLDGbSxm6f › StudentController@block
+  GET|HEAD        api/students/{student}/library-card ....... generated::EsmQw0t7jEcXeAl0 › LibraryCardController@show
+  GET|HEAD        api/students/{student}/library-card/print generated::oxehauBE3j7wm8of › LibraryCardController@print…
+  POST            api/students/{student}/library-card/reissue generated::TROUAWiwkyDNqKFi › LibraryCardController@rei…
+  GET|HEAD        api/students/{student}/notifications generated::sOxKD6dyYUkVDuZi › NotificationController@getStuden…
+  POST            api/students/{student}/reject ............... generated::7OeTmcwYJK5yiMHj › StudentController@reject
+  POST            api/students/{student}/reset-password generated::Ta3D7QkZbiSTIVkq › StudentController@resetPassword
+  POST            api/students/{student}/suspend ............. generated::KyWDkWyW4NfNQkXR › StudentController@suspend
+  POST            api/students/{student}/unblock ............. generated::2ovb4Gz71YM7ok3T › StudentController@unblock
+  GET|HEAD        sanctum/csrf-cookie .............. sanctum.csrf-cookie › Laravel\Sanctum › CsrfCookieController@show
+
+                                                                                                   Showing [71] routes
+
