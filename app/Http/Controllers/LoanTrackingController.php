@@ -69,6 +69,7 @@ class LoanTrackingController extends Controller
             $loans = Loan::whereIn('id', $validated['loan_ids'])->get();
         }
 
+<<<<<<< HEAD
         $notifications = [];
         foreach ($loans as $loan) {
             $notifications[] = [
@@ -87,6 +88,17 @@ class LoanTrackingController extends Controller
         return response()->json([
             'message' => 'Reminders sent successfully',
             'count' => count($notifications),
+=======
+        foreach ($loans as $loan) {
+            $loan->student->notify(
+                new \Notification('Reminder', "Your book is due on {$loan->due_date->format('Y-m-d')}")
+            );
+        }
+
+        return response()->json([
+            'message' => 'Reminders sent successfully',
+            'count' => $loans->count(),
+>>>>>>> 2c132caa446fff37c7ea43d72539d774e7fa63aa
         ]);
     }
 }
